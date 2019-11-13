@@ -1,0 +1,13 @@
+How to execute :
+On two separate terminals run the following commands:
+
+Terminal1 - 
+make
+taskset -c <thread_no1> ./p1
+
+Terminal2 - 
+taskset -c <thread_no2> ./p2 <input in binary>
+
+The two thread numbers should be distinct but correspond to the same core.
+The two taskset commands should be executed simultaneously (as close as possible) in the two terminals
+If either of the processes display an error message, restart and follow the above instructions again.

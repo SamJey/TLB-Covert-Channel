@@ -1,0 +1,12 @@
+Modifications : 
+1) In driver.c , the path to the folder has to be set.
+2) The taskset command assigns each process to a hyperthread. Since we want p1 and p2 to run on two hyperthreads on the same core, we have given thread no.s 0 and 4. Change accordingly for your system.
+
+To run , execute the following commands:
+make
+./run
+
+During execution, access times for different sets will be printed out. The user will have to enter the set number corresponding to the largest access time. This is to make both processes access the same set in the tlb.
+Following this, the difference in access times when accessing simultaneously and accessing separately is illustrated.
+
+(Note : The driver program is just for convenience at this stage. In task 3 there will be no driver, or any explicity form of communication between the processes)

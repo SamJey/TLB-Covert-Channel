@@ -9,10 +9,11 @@ Internal structure(number of levels, sets, ways) are first reverse engineered us
 Using information from Task 1, wo processes on the same core try to access the same set simultaneously to establish a communication channel.
 
 ## Task3
-The two processes take up separate reader/writer roles, and information is passes along the channel.
+The two processes take up separate reader/writer roles, and information is passed along the channel.
 
-## Results
+<!---## Results
 Screenshots and video recordings of the output of the programs can be found here :
 https://drive.google.com/drive/folders/1-UIpvrD2tzQ4mFyY7x9ipltQiM63PFjS?usp=sharing
 
-They were run on an Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz machine.
+
+Programs were run on an Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz machine.

@@ -13,7 +13,7 @@ The two processes take up separate reader/writer roles, and information is passe
 
 <!---## Results
 Screenshots and video recordings of the output of the programs can be found here :
-https://drive.google.com/drive/folders/1-UIpvrD2tzQ4mFyY7x9ipltQiM63PFjS?usp=sharing
+https://drive.google.com/drive/folders/1-UIpvrD2tzQ4mFyY7x9ipltQiM63PFjS?usp=sharing --->
 
 
 Programs were run on an Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz machine.
